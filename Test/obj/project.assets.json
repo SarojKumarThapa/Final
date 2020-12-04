@@ -5717,8 +5717,8 @@
     },
     "Final/1.0.0": {
       "type": "project",
-      "path": "../GPLApplication/Final.csproj",
-      "msbuildProject": "../GPLApplication/Final.csproj"
+      "path": "../Final/Final.csproj",
+      "msbuildProject": "../Final/Final.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5757,8 +5757,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\User\\Desktop\\Final\\GPLApplication\\Final.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\Final\\GPLApplication\\Final.csproj"
+            "C:\\Users\\User\\Desktop\\Final\\Final\\Final.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\Final\\Final\\Final.csproj"
             }
           }
         }

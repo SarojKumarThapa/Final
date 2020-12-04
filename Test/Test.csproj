@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GPLApplication\Final.csproj" />
+    <ProjectReference Include="..\Final\Final.csproj" />
   </ItemGroup>
 
 </Project>

@@ -32,7 +32,7 @@ namespace Final
             if (save.ShowDialog() == DialogResult.OK)
             {
                 StreamWriter write = new StreamWriter(File.Create(save.FileName));
-                write.WriteLine(txt_Command_Box.Text);
+                write.WriteLine(txt_cmd_shp.Text);
                 write.Close();
                 MessageBox.Show("File has been saved successfully!");
             }
@@ -68,13 +68,22 @@ namespace Final
                     MessageBox.Show("Error: Could not read file from disk. Original error: " + ex.Message);
                 }
                 //displays the text inside the file on TextBox named as txtInput                
-                txt_Command_Box.Text = File.ReadAllText(openFileDialog1.FileName);
+                txt_cmd_shp.Text = File.ReadAllText(openFileDialog1.FileName);
             }
         }
 
         private void closeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void clear_Click(object sender, EventArgs e)
+        {
+            txt_cmd_shp.Text = "";
+            Graphics g1 = Output_Box.CreateGraphics();
+            g1.Clear(Output_Box.BackColor);
+            txt_Execution_instruction.Text = "";
+
         }
 
         private void applicationGuideToolStripMenuItem_Click(object sender, EventArgs e)
@@ -89,10 +98,10 @@ namespace Final
 
         private void txt_Execution_Box_TextChanged(object sender, EventArgs e)
         {
-            if (txt_Execution_Box.Text.ToLower().Trim() == "run")
+            if (txt_Execution_instruction.Text.ToLower().Trim() == "run")
             {
                 Graphics g = Output_Box.CreateGraphics();
-                string command = txt_Command_Box.Text.ToLower();
+                string command = txt_cmd_shp.Text.ToLower();
                 string[] commandline = command.Split(new String[] { "\n" },
                  StringSplitOptions.RemoveEmptyEntries);
 
@@ -132,7 +141,7 @@ namespace Final
                     {
                         if (cmd.Length < 2)
                         {
-                            MessageBox.Show("Invalid Parameter ");
+                            MessageBox.Show("Please input your parameter correctly !!! ");
 
                         }
                         else
@@ -140,7 +149,7 @@ namespace Final
                             string[] param = cmd[1].Split(',');
                             if (param.Length < 2)
                             {
-                                MessageBox.Show("Invalid Parameter ");
+                                MessageBox.Show("Please input your parameter correctly !!! ");
 
                             }
                             else
@@ -205,16 +214,16 @@ namespace Final
                     else if (!cmd[0].Equals(null))
                     {
                         int errorLine = k + 1;
-                        MessageBox.Show("Invalid command recognised on line " + errorLine, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show("Your command is not correct at line " + errorLine, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
 
                 }
             }
             else
             {
-                if (txt_Execution_Box.Text.ToLower().Trim() == "clear")
+                if (txt_Execution_instruction.Text.ToLower().Trim() == "clear")
                 {
-                    txt_Command_Box.Clear();
+                    txt_cmd_shp.Clear();
 
                 }
             }

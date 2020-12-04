@@ -4,11 +4,11 @@
     "C:\\Users\\User\\Desktop\\Final\\Test\\Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\Final\\GPLApplication\\Final.csproj": {
+    "C:\\Users\\User\\Desktop\\Final\\Final\\Final.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Final\\GPLApplication\\Final.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Final\\Final\\Final.csproj",
         "projectName": "Final",
-        "projectPath": "C:\\Users\\User\\Desktop\\Final\\GPLApplication\\Final.csproj"
+        "projectPath": "C:\\Users\\User\\Desktop\\Final\\Final\\Final.csproj"
       },
       "frameworks": {
         "net46": {}
@@ -38,8 +38,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\Final\\GPLApplication\\Final.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\Final\\GPLApplication\\Final.csproj"
+              "C:\\Users\\User\\Desktop\\Final\\Final\\Final.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Final\\Final\\Final.csproj"
               }
             }
           }
