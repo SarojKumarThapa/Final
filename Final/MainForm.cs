@@ -113,7 +113,7 @@ namespace Final
                         Output_Box.Refresh();
                         string[] param = cmd[1].Split(',');
                         if (param.Length != 2)
-                        { MessageBox.Show("Incorrect Parameter"); }
+                        { MessageBox.Show("The Parameter that you have inputted is not correct."); }
                         else
                         {
                             Int32.TryParse(param[0], out x);
@@ -128,7 +128,7 @@ namespace Final
                         int x = 0, y = 0;
                         if (param.Length != 2)
                         {
-                            MessageBox.Show("Incorrect Parameter");
+                            MessageBox.Show("The Parameter that you have inputted is not correct.");
                         }
                         else
                         {
@@ -170,7 +170,7 @@ namespace Final
                     {
                         if (cmd.Length != 2) 
                         { 
-                            MessageBox.Show("Incorrect Parameter");
+                            MessageBox.Show("The Parameter that you have inputted is not correct.");
                         }
                         else
                         {
@@ -178,7 +178,7 @@ namespace Final
                             {
                                 IShapes circle = factory.getShape("circle");
                                 Circle c = new Circle();
-                                c.set(Color.AliceBlue, x, y, radius);
+                                c.set(Color.Black, x, y, radius);
                                 c.draw(g);
                             }
                             else
@@ -186,7 +186,7 @@ namespace Final
                                 Int32.TryParse(cmd[1], out radius);
                                 IShapes circle = factory.getShape("circle");
                                 Circle c = new Circle();
-                                c.set(Color.AliceBlue, x, y, radius);
+                                c.set(Color.Black, x, y, radius);
                                 c.draw(g);
                             }
                         }
@@ -197,7 +197,7 @@ namespace Final
                         string[] param = cmd[1].Split(',');
                         if (param.Length != 2)
                         {
-                            MessageBox.Show("Incorrect Parameter");
+                            MessageBox.Show("The Parameter that you have inputted is not correct.");
 
                         }
                         else
@@ -206,7 +206,7 @@ namespace Final
                             Int32.TryParse(param[1], out height);
                             IShapes circle = factory.getShape("triangle");
                             Triangle r = new Triangle();
-                            r.set(Color.AliceBlue, x, y, width, height);
+                            r.set(Color.Black, x, y, width, height);
                             r.draw(g);
                         }
                     }

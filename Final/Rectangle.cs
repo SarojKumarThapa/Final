@@ -31,7 +31,7 @@ namespace Final
             try
             {
                 Pen p = new Pen(Color.Green, 2);
-                /**SolidBrush b = new SolidBrush(Color.Aquamarine);
+                /**SolidBrush b = new SolidBrush(Color.Black);
                 g.FillRectangle(b, x, y, width, height);**/
 
                 g.DrawRectangle(p, x - (width / 2), y - (height / 2), width * 2, height * 2);

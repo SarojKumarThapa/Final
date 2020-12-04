@@ -36,7 +36,7 @@ namespace Final
 
                 p[2].X = x + (width / 2);
                 p[2].Y = y + (height / 2);
-                Pen po = new Pen(Color.RosyBrown, 2);
+                Pen po = new Pen(Color.Black, 2);
                 g.DrawPolygon(po, p);
             }
             catch (Exception ex)

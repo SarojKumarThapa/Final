@@ -23,7 +23,7 @@ namespace Final
         {
             try
             {
-                Pen p = new Pen(Color.Aquamarine, 2);
+                Pen p = new Pen(Color.Black, 2);
                 g.DrawEllipse(p, x - radius, y - radius, radius * 2, radius * 2);
             }
             catch (Exception ex)
