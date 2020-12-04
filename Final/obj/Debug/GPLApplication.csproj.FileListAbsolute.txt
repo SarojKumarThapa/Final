@@ -1,0 +1,29 @@
+C:\Users\Sabitry\source\repos\GPLApplication\GPLApplication\bin\Debug\GPLApplication.exe.config
+C:\Users\Sabitry\source\repos\GPLApplication\GPLApplication\bin\Debug\GPLApplication.exe
+C:\Users\Sabitry\source\repos\GPLApplication\GPLApplication\bin\Debug\GPLApplication.pdb
+C:\Users\Sabitry\source\repos\GPLApplication\GPLApplication\obj\Debug\GPLApplication.csprojAssemblyReference.cache
+C:\Users\Sabitry\source\repos\GPLApplication\GPLApplication\obj\Debug\GPLApplication.MainForm.resources
+C:\Users\Sabitry\source\repos\GPLApplication\GPLApplication\obj\Debug\GPLApplication.Properties.Resources.resources
+C:\Users\Sabitry\source\repos\GPLApplication\GPLApplication\obj\Debug\GPLApplication.csproj.GenerateResource.cache
+C:\Users\Sabitry\source\repos\GPLApplication\GPLApplication\obj\Debug\GPLApplication.exe
+C:\Users\Sabitry\source\repos\GPLApplication\GPLApplication\obj\Debug\GPLApplication.pdb
+F:\TBC\Advanced Software Engineering\Assignments\Program\GPLApplication\GPLApplication\GPLApplication\bin\Debug\GPLApplication.exe.config
+F:\TBC\Advanced Software Engineering\Assignments\Program\GPLApplication\GPLApplication\GPLApplication\bin\Debug\GPLApplication.exe
+F:\TBC\Advanced Software Engineering\Assignments\Program\GPLApplication\GPLApplication\GPLApplication\bin\Debug\GPLApplication.pdb
+F:\TBC\Advanced Software Engineering\Assignments\Program\GPLApplication\GPLApplication\GPLApplication\obj\Debug\GPLApplication.csprojAssemblyReference.cache
+F:\TBC\Advanced Software Engineering\Assignments\Program\GPLApplication\GPLApplication\GPLApplication\obj\Debug\GPLApplication.MainForm.resources
+F:\TBC\Advanced Software Engineering\Assignments\Program\GPLApplication\GPLApplication\GPLApplication\obj\Debug\GPLApplication.Properties.Resources.resources
+F:\TBC\Advanced Software Engineering\Assignments\Program\GPLApplication\GPLApplication\GPLApplication\obj\Debug\GPLApplication.csproj.GenerateResource.cache
+F:\TBC\Advanced Software Engineering\Assignments\Program\GPLApplication\GPLApplication\GPLApplication\obj\Debug\GPLApplication.csproj.CoreCompileInputs.cache
+F:\TBC\Advanced Software Engineering\Assignments\Program\GPLApplication\GPLApplication\GPLApplication\obj\Debug\GPLApplication.exe
+F:\TBC\Advanced Software Engineering\Assignments\Program\GPLApplication\GPLApplication\GPLApplication\obj\Debug\GPLApplication.pdb
+C:\Users\User\Desktop\GPLApplication\GPLApplication\bin\Debug\GPLApplication.exe.config
+C:\Users\User\Desktop\GPLApplication\GPLApplication\bin\Debug\GPLApplication.exe
+C:\Users\User\Desktop\GPLApplication\GPLApplication\bin\Debug\GPLApplication.pdb
+C:\Users\User\Desktop\GPLApplication\GPLApplication\obj\Debug\GPLApplication.csprojAssemblyReference.cache
+C:\Users\User\Desktop\GPLApplication\GPLApplication\obj\Debug\GPLApplication.MainForm.resources
+C:\Users\User\Desktop\GPLApplication\GPLApplication\obj\Debug\GPLApplication.Properties.Resources.resources
+C:\Users\User\Desktop\GPLApplication\GPLApplication\obj\Debug\GPLApplication.csproj.GenerateResource.cache
+C:\Users\User\Desktop\GPLApplication\GPLApplication\obj\Debug\GPLApplication.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\GPLApplication\GPLApplication\obj\Debug\GPLApplication.exe
+C:\Users\User\Desktop\GPLApplication\GPLApplication\obj\Debug\GPLApplication.pdb
